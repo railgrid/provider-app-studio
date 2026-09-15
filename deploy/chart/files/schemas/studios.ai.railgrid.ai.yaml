@@ -1,12 +1,12 @@
 apiVersion: apis.kcp.io/v1alpha1
 kind: APIResourceSchema
 metadata:
-  name: v260809-dbe6b457.studios.ai.faros.sh
+  name: v260809-dbe6b457.studios.ai.railgrid.ai
 spec:
-  group: ai.faros.sh
+  group: ai.railgrid.ai
   names:
     categories:
-    - faros
+    - railgrid
     kind: Studio
     listKind: StudioList
     plural: studios

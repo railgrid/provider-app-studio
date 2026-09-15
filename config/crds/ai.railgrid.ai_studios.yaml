@@ -4,12 +4,12 @@ kind: CustomResourceDefinition
 metadata:
   annotations:
     controller-gen.kubebuilder.io/version: v0.16.5
-  name: studios.ai.faros.sh
+  name: studios.ai.railgrid.ai
 spec:
-  group: ai.faros.sh
+  group: ai.railgrid.ai
   names:
     categories:
-    - faros
+    - railgrid
     kind: Studio
     listKind: StudioList
     plural: studios

@@ -4,9 +4,9 @@ kind: CustomResourceDefinition
 metadata:
   annotations:
     controller-gen.kubebuilder.io/version: v0.16.5
-  name: projects.ai.faros.sh
+  name: projects.ai.railgrid.ai
 spec:
-  group: ai.faros.sh
+  group: ai.railgrid.ai
   names:
     kind: Project
     listKind: ProjectList
@@ -32,7 +32,7 @@ spec:
     name: v1alpha1
     schema:
       openAPIV3Schema:
-        description: Project is a persistent AI workspace scoped to a Faros child
+        description: Project is a persistent AI workspace scoped to a Railgrid child
           workspace.
         properties:
           apiVersion:
@@ -289,7 +289,7 @@ spec:
                   Template names the infrastructure Template whose instance backs this
                   Project's development environment (docs/app-studio-template-sandboxes.md).
                   When set, the development binding is generated from the Template's
-                  instanceCRD with farosMode: development, and file sync routes per the
+                  instanceCRD with railgridMode: development, and file sync routes per the
                   Template's declared development components. Empty means the project has
                   no development environment yet — one must be selected before any
                   development runtime surface (sync, preview, logs) works.

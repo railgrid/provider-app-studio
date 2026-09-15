@@ -1,12 +1,12 @@
 apiVersion: apis.kcp.io/v1alpha1
 kind: APIResourceSchema
 metadata:
-  name: v260806-59f3b567.sessions.ai.faros.sh
+  name: v260806-59f3b567.sessions.ai.railgrid.ai
 spec:
-  group: ai.faros.sh
+  group: ai.railgrid.ai
   names:
     categories:
-    - faros
+    - railgrid
     kind: Session
     listKind: SessionList
     plural: sessions
